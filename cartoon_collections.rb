@@ -33,6 +33,7 @@ cheese_types = ["cheddar", "gouda", "camembert", "Latvian cheese"]
     ## & operator and .empty? method evaluate whether
     ## the set of overlapping elements two arrays is empty
     food_types.find do |food|
+    ## find method returns the first element for which the below is true
       cheese_types.include?(food) && food_types.include?(food)
     end
   else
