@@ -27,7 +27,7 @@ end
 
 food_types = ["potato", "potato", "potato", "Latvian cheese", "potato"]
 
-def find_the_cheese(food_types, cheese_types)
+def find_the_cheese(food_types)
 cheese_types = ["cheddar", "gouda", "camembert", "Latvian cheese"]
   if (cheese_types & food_types).empty? == false
     ## & operator and .empty? method evaluate whether
